@@ -1,0 +1,52 @@
+.Optionselect label {
+  margin-right: auto;
+  margin-left: 10px;
+  /* margin-bottom: -2px; */
+  /* margin: 20px 20px 10px 5px; */
+}
+.Optionselect input {
+  /* The native appearance is hidden */
+  appearance: none;
+  -webkit-appearance: none;
+
+  /* For a circular appearance we need a border-radius. */
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  /* The background will be the radio dot's color. */
+  background: #ff572233;
+
+  /* The border will be the spacing between the dot and the outer circle */
+  border: 3px solid #fff;
+
+  /* And by creating a box-shadow with no offset and no blur, we have an outer circle */
+  box-shadow: 0 0 0 1px #ff5722;
+}
+.Optionselect input:checked {
+  background-color: #ff5722;
+}
+
+.radiomark {
+  border-radius: 0%;
+}
+
+.Optionselect {
+  padding: 10px 10px 10px 20px;
+  text-align: left;
+  display: flex;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: rgb(224, 234, 234);
+  /* border: 2px solid red; */
+  flex-direction: column;
+  width: 600px;
+  height: 130px;
+  justify-content: space-around;
+}
+.selectoption {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  /* border: 2px solid black; */
+}

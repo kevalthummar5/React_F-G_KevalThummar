@@ -1,0 +1,128 @@
+.Feedbackform {
+  background-color: bisque;
+  padding: 3px 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  height: fit-content;
+  /* overflow: auto; */
+}
+.formtitle {
+  border-radius: 10px;
+  background-color: white;
+  text-align: left;
+  padding: 5px 20px;
+  margin: 5px 0;
+}
+.formarea {
+  /* border: 2px solid blue; */
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.customerarea {
+  background-color: white;
+  border-radius: 15px;
+  margin: 3px auto;
+  height: fit-content;
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.nameinput,
+.phoneinput,
+.emailinput {
+  padding: 10px 10px 10px 20px;
+  text-align: left;
+  display: flex;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: rgb(224, 234, 234);
+  /* border: 2px solid red; */
+  flex-direction: column;
+  width: 600px;
+  height: 130px;
+  justify-content: center;
+}
+.phoneinput {
+  align-self: start;
+  /* margin-right: auto; */
+}
+.nameinput input,
+.emailinput input {
+  width: 500px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+.phoneinput input {
+  width: 200px;
+
+  margin: 10px 0;
+  padding: 5px 10px;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+.countrycode {
+  width: 200px;
+  /* padding: 0; */
+  display: inline-block;
+
+  /* margin: 10px auto 10px auto; */
+  height: 40px;
+  background-color: white;
+  transform: scale(0.8);
+}
+
+.mobinput {
+  display: flex;
+  width: 340px;
+
+  flex-direction: row;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.optionarea {
+  background-color: white;
+  border-radius: 15px;
+  margin: 3px auto;
+  height: fit-content;
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.submitbtn {
+  margin: 10px 30px 10px auto;
+  width: 200px;
+  padding: 10px 20px;
+  border: transparent;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 15px;
+  align-self: end;
+  /* text-align: end; */
+}
+.submitbtn:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+.error {
+  margin-left: 20px;
+  /* margin-bottom: 10px; */
+  height: 25px;
+  color: red;
+}
+@media only screen and (max-width: 1200px) {
+  .customerarea {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,29 @@
+.Thank {
+  height: 50vh;
+  margin: 20vh auto;
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.thankicon {
+  color: green;
+  margin: 4vh;
+  font-size: 5rem;
+}
+.thankheading {
+  color: gray;
+}
+.closebtn {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: transparent;
+  border-radius: 15px;
+  width: 100px;
+  align-self: flex-end;
+}
+.closebtn:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
